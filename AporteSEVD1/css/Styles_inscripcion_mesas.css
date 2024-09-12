@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+body {
+    background: #EAF1F5;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+/**/
+/* inscripción a materias */
+.main-content {
+    background-color: #fff;
+    padding: 5%;
+    margin: 5%;
+}
+
+.main-content h2 {
+    color: #4abdcc;
+    margin-bottom:1%;
+}
+
+.inscription-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.inscription-form label {
+    margin-bottom: 1%;
+    font-weight: bold;
+    color: #333;
+}
+
+.inscription-form input,
+.inscription-form select {
+    padding: 1%;
+    margin-bottom: 2%;
+    border: 1px solid #ccc;
+}
+
+.inscription-form button {
+    background-color: #4abdcc;
+    color: #fff;
+    border: none;
+    padding: 1%;
+    cursor: pointer;
+    transition: background-color 0.9s ease;
+}
+
+.inscription-form button:hover {
+    background-color: #47a1c1;
+}
+
+.course-list {
+    margin-top: 2%;
+}
+
+.course-list h3 {
+    color: #333;
+    font-size: 100%;
+    margin-bottom: 1%;
+}
+
+.course-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.course-list ul li {
+    margin-bottom: 1%;
+    color: #555;
+}
+
+.course-list ul li::before {
+    content: '\2022'; /* Bullet point */
+    color: #4abdcc;
+    font-weight: bold;
+    display: inline-block;
+    width: 1%;
+    margin-left: 1%;
+}
+/*fin inscripcion a materias*/
